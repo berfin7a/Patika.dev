@@ -29,7 +29,7 @@ public class SinifGecme {
         }
         if (fizik<= 100 && fizik >= 0){
             toplam += fizik;
-            ++derssayisi;
+            
         }else{
             System.out.println("notunuz 0 ile 100 arasında olmalıdır");
             fizik=0;
@@ -38,7 +38,7 @@ public class SinifGecme {
 
         if (turkce <= 100 && turkce >= 0){
             toplam += turkce;
-            ++derssayisi;
+           
         }else{
             System.out.println("notunuz 0 ile 100 arasında olmalıdır");
             turkce=0;
@@ -47,7 +47,7 @@ public class SinifGecme {
 
         if (kimya <= 100 && kimya >= 0){
             toplam += kimya;
-            ++derssayisi;
+            
         }else{
             System.out.println("notunuz 0 ile 100 arasında olmalıdır");
             kimya=0;
@@ -56,7 +56,7 @@ public class SinifGecme {
 
         if (muzik <= 100 && muzik >= 0){
             toplam += muzik;
-            ++derssayisi;
+           
         }else{
             System.out.println("notunuz 0 ile 100 arasında olmalıdır");
             muzik=0;
