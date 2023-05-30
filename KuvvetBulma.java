@@ -7,20 +7,22 @@ public interface KuvvetBulanProgram {
         int n;
 
         System.out.println("sayı giriniz :");
-        n =  scan.nextInt();
+        n = scan.nextInt();
 
         System.out.println("girilen sayıya kadar 4'ün kuvvetleri :  ");
 
-        for( int i =1; i <=n ; i*=4){
+        for (int i = 1; i <= n; i *= 4) {
             System.out.println(i);
 
+
+            }
         System.out.println("girilen sayıya kadar 5'in kuvvetleri : ");
-
-        for(int i =1; i<=n; i*=5){
+        for (int i = 1; i <= n; i *= 5) {
             System.out.println(i);
+
+
         }
 
+
     }
-
-
 }
