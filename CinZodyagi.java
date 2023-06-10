@@ -1,7 +1,7 @@
 package java101;
 import java.util.Scanner;
 
-public class cinZodyagi {
+public class CinZodyagi {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int yil, mod ;
